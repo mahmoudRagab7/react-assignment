@@ -73,20 +73,23 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="#">
-                  <img
-                    src={navIcon1}
-                    alt="https://www.linkedin.com/in/mahmoud-ahmed-98332b1a2/"
-                  />
+                <a
+                  href="https://www.linkedin.com/in/mahmoud-ahmed-98332b1a2/"
+                  target="_blank"
+                >
+                  <img src={navIcon1} alt="" />
                 </a>
-                <a href="https://www.facebook.com/profile.php?id=100041875096960">
+                <a
+                  href="https://www.facebook.com/profile.php?id=100041875096960"
+                  target="_blank"
+                >
                   <img src={navIcon2} alt="" />
                 </a>
-                <a href="#">
-                  <img
-                    src={navIcon3}
-                    alt="https://www.instagram.com/mahmoudragab982/"
-                  />
+                <a
+                  href="https://www.instagram.com/mahmoudragab982/"
+                  target="_blank"
+                >
+                  <img src={navIcon3} alt="" />
                 </a>
               </div>
               <HashLink to="#connect">

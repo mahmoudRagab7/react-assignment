@@ -30,7 +30,7 @@ export const Newsletter = ({ status, message, onValidated }) => {
               You Can Find Me More<br></br>& leave Here Your E-mail Address ,
               And Call Me If You're A Girl
             </h3>
-            {status === "sending" && <Alert>Sending...</Alert>}
+            {status === "sending" && <Alert></Alert>}
             {status === "error" && <Alert variant="danger">{message}</Alert>}
             {status === "success" && <Alert variant="success">{message}</Alert>}
           </Col>
